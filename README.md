@@ -1,0 +1,2 @@
+# yangsuite
+install yangsuite ubuntu
