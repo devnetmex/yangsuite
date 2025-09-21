@@ -1,0 +1,27 @@
+
+   15  sudo add-apt-repository ppa:deadsnakes/ppa -y
+   16  python3 --version
+   17  sudo apt install python3.10
+   18  which python3
+   20  ls /usr/bin/ | grep python
+   22  mkdir yangsuite-repo
+   23  mv yangsuite/* yangsuite-repo/
+   24  ls
+   25  ls yangsuite
+   26  ls yangsuite/
+   27  ls yangsuite-repo/
+   28  python3.10 -m virtualenv yangsuite
+   29  python3.10 -m venv yangsuite
+   30  apt install virtualenv
+   31  sudo apt install virtualenv
+   32  virtualenv yangsuite --python=python3.10
+   34  ls yangsuite
+   35  source yangsuite/bin/activate
+   36  python3 --version
+   37  pip install pip wheel setuptools --upgrade
+   38  pip install yangsuite
+   39  pwd
+   40  ls
+   41  yangsuite
+   42  yangsuite -h
+       yangsuite -i
